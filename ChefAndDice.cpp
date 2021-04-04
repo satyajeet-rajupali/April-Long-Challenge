@@ -12,10 +12,9 @@ long long maxVisiblePipsOneStorey(long long n)
         return 36;
     }
     return 51;
-
 }
 
-long long  maxVisiblePipsMultiStorey(long long n)
+long long maxVisiblePipsMultiStorey(long long n)
 {
 
     long long quo, rem, mulOfFour;
@@ -36,8 +35,7 @@ long long  maxVisiblePipsMultiStorey(long long n)
     {
         return 51 + 4 + (mulOfFour * 44);
     }
-    return 60 + ((mulOfFour-1) * 44);
-    
+    return 60 + ((mulOfFour - 1) * 44);
 }
 
 int main()
